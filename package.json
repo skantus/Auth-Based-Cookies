@@ -1,9 +1,10 @@
 {
-  "name": "angular-seed",
+  "name": "Auth-Based-Cookies",
+  "directory": "app/components/",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "Project for AngularJS Authentication Based Cookies",
+  "repository": "https://github.com/skantus/Auth-Based-Cookies",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
