@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="jumbotron" style="padding-bottom:0px;">
+    <h2>Authentication</h2>
+  </div>
+  <form name="form" class="form-signin" role="form">
+    <input type="text" name="username" id="username" class="form-control" placeholder="user" ng-model="username" required />
+    <br>
+    <input type="password" name="password" id="password" class="form-control" placeholder="password" ng-model="password" required />
+    <br>
+    <button type="button" 
+            ng-click="login($event)" 
+            class="btn btn-lg btn-primary btn-block">
+            SignIn
+    </button>
+    {{ stateMessage }}
+  </form>
+</div>
