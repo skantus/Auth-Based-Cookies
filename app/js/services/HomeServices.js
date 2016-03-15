@@ -7,6 +7,7 @@ angular.module('app')
     function (Base64, $http, $cookieStore, $rootScope, $timeout) {
         var service = {};
 
+        // Servicio para realizar el inicio de sesión.
         service.Login = function (username, password, callback) {
             
             /*  Autenticación para las pruebas, se usa $timeut de espera para simular llamada a la API
